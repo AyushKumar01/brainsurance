@@ -1,0 +1,218 @@
+[
+  {
+    "id": "acura",
+    "display": "Acura",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "audi",
+    "display": "Audi",
+    "is_common": "1",
+    "country": "Germany"
+  },
+  {
+    "id": "bentley",
+    "display": "Bentley",
+    "is_common": "1",
+    "country": "UK"
+  },
+  {
+    "id": "bmw",
+    "display": "BMW",
+    "is_common": "1",
+    "country": "Germany"
+  },
+  {
+    "id": "buick",
+    "display": "Buick",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "cadillac",
+    "display": "Cadillac",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "chevrolet",
+    "display": "Chevrolet",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "chrysler",
+    "display": "Chrysler",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "dodge",
+    "display": "Dodge",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "fiat",
+    "display": "Fiat",
+    "is_common": "1",
+    "country": "Italy"
+  },
+  {
+    "id": "ford",
+    "display": "Ford",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "gmc",
+    "display": "GMC",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "honda",
+    "display": "Honda",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "hyundai",
+    "display": "Hyundai",
+    "is_common": "1",
+    "country": "South Korea"
+  },
+  {
+    "id": "infiniti",
+    "display": "Infiniti",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "jaguar",
+    "display": "Jaguar",
+    "is_common": "1",
+    "country": "UK"
+  },
+  {
+    "id": "jeep",
+    "display": "Jeep",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "kia",
+    "display": "Kia",
+    "is_common": "1",
+    "country": "South Korea"
+  },
+  {
+    "id": "lamborghini",
+    "display": "Lamborghini",
+    "is_common": "1",
+    "country": "Italy"
+  },
+  {
+    "id": "lexus",
+    "display": "Lexus",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "lincoln",
+    "display": "Lincoln",
+    "is_common": "1",
+    "country": "USA"
+  },
+  {
+    "id": "maserati",
+    "display": "Maserati",
+    "is_common": "1",
+    "country": "Italy"
+  },
+  {
+    "id": "mazda",
+    "display": "Mazda",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "mclaren",
+    "display": "McLaren",
+    "is_common": "1",
+    "country": "UK"
+  },
+  {
+    "id": "mercedes-benz",
+    "display": "Mercedes-Benz",
+    "is_common": "1",
+    "country": "Germany"
+  },
+  {
+    "id": "mini",
+    "display": "Mini",
+    "is_common": "1",
+    "country": "UK"
+  },
+  {
+    "id": "mitsubishi",
+    "display": "Mitsubishi",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "nissan",
+    "display": "Nissan",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "porsche",
+    "display": "Porsche",
+    "is_common": "1",
+    "country": "Germany"
+  },
+  {
+    "id": "rolls-royce",
+    "display": "Rolls-Royce",
+    "is_common": "1",
+    "country": "UK"
+  },
+  {
+    "id": "scion",
+    "display": "Scion",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "smart",
+    "display": "Smart",
+    "is_common": "1",
+    "country": "France"
+  },
+  {
+    "id": "subaru",
+    "display": "Subaru",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "toyota",
+    "display": "Toyota",
+    "is_common": "1",
+    "country": "Japan"
+  },
+  {
+    "id": "volkswagen",
+    "display": "Volkswagen",
+    "is_common": "1",
+    "country": "Germany"
+  },
+  {
+    "id": "volvo",
+    "display": "Volvo",
+    "is_common": "1",
+    "country": "Sweden"
+  }
+]
