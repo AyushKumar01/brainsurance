@@ -2,10 +2,10 @@ const { BASE_PREMIUM_PRICE, BASE_AGE } = require("../constants");
 const { v4: uuidv4 } = require("uuid");
 const quotes = require("../models/quotes");
 const getAge = (dateString) => {
-  var today = new Date();
-  var birthDate = new Date(dateString);
-  var age = today.getFullYear() - birthDate.getFullYear();
-  var m = today.getMonth() - birthDate.getMonth();
+  let today = new Date();
+  let birthDate = new Date(dateString);
+  let age = today.getFullYear() - birthDate.getFullYear();
+  let m = today.getMonth() - birthDate.getMonth();
   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
     age--;
   }
@@ -121,6 +121,16 @@ const postQuote = (req, res) => {
     res.status(400).send({ message: error.message });
   }
 };
+
+const getQuotes = (req, res) => {
+  try {
+    res.status(200).send(quotes);
+  } catch (error) {
+    res.status(400).send({ message: error.message });
+  }
+};
+
 module.exports = {
   postQuote: postQuote,
+  getQuotes: getQuotes,
 };
