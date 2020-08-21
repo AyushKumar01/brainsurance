@@ -34,10 +34,13 @@ const CardPerson = () => {
             LICENSE TYPE:
           </option>
           <option className="cardPerson__license-option" value="1">
-            CLASS 5
+            G2
           </option>
           <option className="cardPerson__license-option" value="2">
-            CLASS 7
+            G1
+          </option>
+          <option className="cardPerson__license-option" value="3">
+            G
           </option>
         </select>
       </div>
