@@ -1,0 +1,43 @@
+@mixin nav-title {
+  font-family: "Poppins-ExtraBold";
+  font-size: 1.8rem;
+}
+
+@mixin nav-title-light {
+  font-family: "Poppins-ExtraLight";
+  font-size: 1.8rem;
+}
+
+@mixin header-title {
+  font-family: "Poppins-ExtraBold";
+  font-size: 4.5rem;
+}
+
+// Flex Properties
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin justify-align-center {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn {
+  font-size: 0.8rem;
+  font-family: "Poppins-ExtraBold";
+  color: $white;
+  background-color: $watermelon;
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 12rem;
+
+  box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,21 @@
+.navbar {
+  background-color: $off-white;
+  height: 3rem;
+  padding: 1rem 9rem;
+  @include flex-row;
+  justify-content: space-between;
+  align-items: center;
+  &__title {
+    color: $dark-carbon;
+    @include nav-title;
+    &--light {
+      color: $medium-carbon;
+    }
+    &--lighter {
+      color: $carbon;
+    }
+  }
+  &__btn {
+    @include btn;
+  }
+}
