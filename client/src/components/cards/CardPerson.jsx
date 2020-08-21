@@ -15,27 +15,29 @@ const CardPerson = () => {
           type="text"
           placeholder="LASTNAME"
         />
-        <label className="cardPerson__form-label" for="start">
-          Date of Birth:
-        </label>
+        <div className="cardPerson__form-dob">
+          <label className="cardPerson__form-label" for="start">
+            DATE OF BIRTH:
+          </label>
 
-        <input
-          className="cardPerson__form-input"
-          type="date"
-          id="start"
-          name="trip-start"
-          min="1970-01-01"
-          max="2004-08-21"
-        />
-        <select className="cardCar__menu-year">
-          <option className="cardCar__year-option" value="0">
-            YEAR:
+          <input
+            className="cardPerson__form-input"
+            type="date"
+            id="start"
+            name="trip-start"
+            min="1970-01-01"
+            max="2004-08-21"
+          />
+        </div>
+        <select className="cardPerson__menu-license">
+          <option className="cardPerson__license-option" value="0">
+            LICENSE TYPE:
           </option>
-          <option className="cardCar__year-option" value="1">
-            2004
+          <option className="cardPerson__license-option" value="1">
+            CLASS 5
           </option>
-          <option className="cardCar__year-option" value="2">
-            2003
+          <option className="cardPerson__license-option" value="2">
+            CLASS 7
           </option>
         </select>
       </div>

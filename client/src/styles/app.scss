@@ -3,6 +3,8 @@
 @import "./partials/fonts";
 @import "./partials/navbar";
 @import "./partials/header";
+@import "./partials/getQuote";
+@import "./partials/finalQuote";
 
 * {
   margin: 0;
@@ -17,11 +19,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.main__btn {
-  @include btn;
-  position: absolute;
-  top: 55%;
-  left: 10%;
 }

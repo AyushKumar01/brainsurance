@@ -1,0 +1,72 @@
+.final-quote {
+  background-color: $neutral;
+  //   height: 00px;
+  padding: 3rem 3rem 4rem 3rem;
+  &__title {
+    font-family: "Poppins-ExtraBold";
+    color: $dark-carbon;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  &__results {
+    @include flex-column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__container {
+    // border-radius: 10px;
+    height: 3rem;
+    margin-bottom: 1rem;
+    background-color: $sky;
+    width: 800px;
+    @include flex-row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__label {
+    font-family: "Poppins-ExtraBold";
+    color: $medium-carbon;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+  }
+  &__input-result {
+    font-family: "Poppins-Regular";
+    color: $dark-carbon;
+    font-size: 0.9rem;
+  }
+  &__btn-container {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    @include flex-row;
+    justify-content: center;
+    align-items: center;
+  }
+  &__btn-cancel {
+    @include btn;
+    background-color: $neutral;
+    box-shadow: none;
+    color: $watermelon;
+    border: 1px solid $watermelon;
+    margin-right: 1rem;
+  }
+  &__btn-buy {
+    @include btn;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  &__contact {
+    @include nav-title;
+    &--bold {
+      color: $dark-carbon;
+      margin-right: 1rem;
+    }
+    &--medium {
+      color: $medium-carbon;
+      margin-right: 0.7rem;
+    }
+    &--light {
+      color: $carbon;
+    }
+  }
+}

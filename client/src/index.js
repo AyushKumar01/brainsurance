@@ -14,8 +14,8 @@ ReactDOM.render(
       <Navbar />
       <Switch>
         <Route path="/" component={App} exact />
-        <Route path="/get-a-quote" component={GetAQuote} exact />
-        <Route path="/final-quote" component={FinalQuote} />
+        <Route path="/quote" component={GetAQuote} exact />
+        <Route path="/quote/final" component={FinalQuote} />
 
         <Route component={NotFound} />
       </Switch>

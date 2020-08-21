@@ -11,7 +11,7 @@ const Header = () => {
         alt="man on the road next to broken car"
       />
       <h1 className="header__title"> Make your life easier.</h1>
-      <Link to="/get-a-quote" className="navbar__btn-link">
+      <Link to="/quote" className="navbar__btn-link">
         <button className="main__btn">GET A QUOTE TODAY</button>
       </Link>
     </div>
