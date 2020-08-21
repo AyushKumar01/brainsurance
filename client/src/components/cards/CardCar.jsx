@@ -3,11 +3,11 @@ import React from "react";
 const CardCar = () => {
   return (
     <div className="cardCar">
-      <h2 className="cardCar__title">ABOUT YOUR CAR</h2>
+      <h3 className="cardCar__title">ABOUT YOUR CAR</h3>
       <div className="cardCar__form">
         <select className="cardCar__menu-year">
           <option className="cardCar__year-option" value="0">
-            Year:
+            YEAR:
           </option>
           <option className="cardCar__year-option" value="1">
             2004
@@ -18,7 +18,7 @@ const CardCar = () => {
         </select>
         <select className="cardCar__menu-make">
           <option className="cardCar__make-option" value="0">
-            Make:
+            MAKE:
           </option>
           <option className="cardCar__make-option" value="1">
             BMW
@@ -29,7 +29,7 @@ const CardCar = () => {
         </select>
         <select className="cardCar__menu-commute">
           <option className="cardCar__commute-option" value="0">
-            Daily Commute:
+            DAILY COMMUTE:
           </option>
           <option className="cardCar__commute-option" value="1">
             0 to 50km/day
