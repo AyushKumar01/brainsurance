@@ -16,6 +16,6 @@ app.use((err, req, res, next) => {
   res.send({ message: err.message });
 });
 
-app.listen(8000, () => {
-  console.log("Insurance app listening on port 8000!");
+app.listen(8080, () => {
+  console.log("Insurance app listening on port 8080!");
 });
