@@ -1,0 +1,129 @@
+.get-quote {
+  background-color: $neutral;
+  height: 800px;
+  padding: 4rem 9rem;
+  @include flex-row;
+  position: relative;
+  &__form {
+    background-color: $off-white;
+    padding: 2rem;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.2);
+    @include flex-column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-family: "Poppins-ExtraBold";
+    color: $dark-carbon;
+    margin-bottom: 1rem;
+  }
+  &__img {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    // opacity: 20%;
+    top: -7%;
+    right: 0;
+  }
+  &__btn {
+    @include btn;
+    margin-top: 1.5rem;
+  }
+}
+
+.cardCar {
+  @include flex-column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-family: "Poppins-ExtraBold";
+    color: $medium-carbon;
+    margin-bottom: 1rem;
+  }
+  &__form {
+    @include flex-column;
+  }
+  &__menu-year {
+    font-family: "Poppins-Regular";
+    height: 3rem;
+    width: 18rem;
+    border: 2px solid $sky;
+    border-radius: 5px;
+    margin-bottom: 0.7rem;
+    padding: 0 0.5rem;
+    background-color: $sky;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.1);
+  }
+  &__menu-make {
+    font-family: "Poppins-Regular";
+    height: 3rem;
+    width: 18rem;
+    border: 2px solid $sky;
+    border-radius: 5px;
+    margin-bottom: 0.7rem;
+    padding: 0 0.5rem;
+    background-color: $sky;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.1);
+  }
+  &__menu-commute {
+    font-family: "Poppins-Regular";
+    height: 3rem;
+    width: 18rem;
+    border: 2px solid $sky;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+    background-color: $sky;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.cardPerson {
+  @include flex-column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-family: "Poppins-ExtraBold";
+    color: $medium-carbon;
+    margin-bottom: 1rem;
+  }
+  &__form {
+    @include flex-column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__form-dob {
+    @include flex-column;
+
+    justify-content: center;
+    align-items: center;
+  }
+  &__form-input {
+    font-family: "Poppins-Regular";
+    height: 3rem;
+    width: 18rem;
+    border: 2px solid $sky;
+    border-radius: 5px;
+    margin-bottom: 0.7rem;
+    padding: 0 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.1);
+  }
+  &__form-label {
+    font-family: "Poppins-Regular";
+    font-size: 0.8rem;
+    margin: 0 1.5rem 0.5rem 0;
+  }
+  &__menu-license {
+    font-family: "Poppins-Regular";
+    height: 3rem;
+    width: 18rem;
+    border: 2px solid $sky;
+    border-radius: 5px;
+    margin-bottom: 0.7rem;
+    padding: 0 0.5rem;
+    background-color: $sky;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.1);
+  }
+}
