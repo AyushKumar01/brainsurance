@@ -8,7 +8,7 @@ const FinalQuote = () => {
         <h2 className="final-quote__title">YOUR QUOTE</h2>
         <div className="final-quote__container">
           <p className="final-quote__label">FULL NAME:</p>
-          <p className="final-quote__input-result">PLACEHOLDER</p>
+          <p className="final-quote__input-result"></p>
         </div>
         <div className="final-quote__container">
           <p className="final-quote__label">DATE OF BIRTH:</p>

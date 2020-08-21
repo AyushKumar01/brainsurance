@@ -1,6 +1,9 @@
 import React from "react";
+import CarMakeOption from "./CardCarOptions/CarMakeOption";
+import CarModelOption from "./CardCarOptions/CarModelOption";
+import CarYearOption from "./CardCarOptions/CarYearOption";
 
-const CardCar = () => {
+const CardCar = (props) => {
   return (
     <div className="cardCar">
       <h3 className="cardCar__title">ABOUT YOUR CAR</h3>
@@ -9,37 +12,25 @@ const CardCar = () => {
           <option className="cardCar__make-option" value="0">
             MAKE:
           </option>
-          <option className="cardCar__make-option" value="1">
-            BMW
-          </option>
-          <option className="cardCar__make-option" value="2">
-            Audi
-          </option>
+          {props.cars.map((car) => (
+            <CarMakeOption carData={car} />
+          ))}
         </select>
         <select className="cardCar__menu-make">
           <option className="cardCar__make-option" value="0">
             MODEL:
           </option>
-          <option className="cardCar__make-option" value="1">
-            Model 1
-          </option>
-          <option className="cardCar__make-option" value="2">
-            Model 2
-          </option>
-          <option className="cardCar__make-option" value="3">
-            Model 3
-          </option>
+          {props.cars.map((car) => (
+            <CarModelOption carData={car} />
+          ))}
         </select>
         <select className="cardCar__menu-year">
           <option className="cardCar__year-option" value="0">
             YEAR:
           </option>
-          <option className="cardCar__year-option" value="1">
-            2004
-          </option>
-          <option className="cardCar__year-option" value="2">
-            2003
-          </option>
+          {props.cars.map((car) => (
+            <CarYearOption carData={car} />
+          ))}
         </select>
 
         <select className="cardCar__menu-commute">

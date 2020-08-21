@@ -16,7 +16,7 @@ const CardPerson = () => {
           placeholder="LASTNAME"
         />
         <div className="cardPerson__form-dob">
-          <label className="cardPerson__form-label" for="start">
+          <label className="cardPerson__form-label" htmlFor="start">
             DATE OF BIRTH:
           </label>
 
